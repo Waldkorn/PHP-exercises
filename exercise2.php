@@ -37,19 +37,22 @@
           //echo  nl2br ($numbers[$i] . " || " . pow($numbers[$i], 2) . " || " . pow($numbers[$i], 3) . "\n");
       }
       */
-      echo "<table>";
-      for ($number = 1; $number < 11; $number++) {
+      function makeTable($maxNumber) {
+      echo "<table border=1>";
+        for ($number = 1; $number <= $maxNumber; $number++) {
 
-          $squaredNumber = pow($number, 2);
-          $cubedNumber = pow($number, 3);
+            $squaredNumber = pow($number, 2);
+            $cubedNumber = pow($number, 3);
 
-          echo "<tr>";
-          echo "<td>" . $number . "</td>";
-          echo "<td>" . $squaredNumber . "</td>";
-          echo "<td>" . $cubedNumber . "</td>";
-          echo "</tr>";
-        }
+            echo "<tr>";
+            echo "<td>" . $number . "</td>";
+            echo "<td>" . $squaredNumber . "</td>";
+            echo "<td>" . $cubedNumber . "</td>";
+            echo "</tr>";
+          }
         echo "</table>";
+      }
+      makeTable(10);
       ?>
   </body>
 </html>
