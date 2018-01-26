@@ -12,3 +12,5 @@ exercise 4: July
 exercise 5: WoofMeow
 
 exercise 6: arraySum
+
+exercise 7: nestedloops
