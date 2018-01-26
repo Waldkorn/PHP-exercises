@@ -10,3 +10,5 @@ exercise 3: Zeventienproef
 exercise 4: July
 
 exercise 5: WoofMeow
+
+exercise 6: arraySum
