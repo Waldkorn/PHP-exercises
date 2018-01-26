@@ -6,3 +6,7 @@ exercise 1: PHP fix errors
 exercise 2: Mathtable
 
 exercise 3: Zeventienproef
+
+exercise 4: July
+
+exercise 5: WoofMeow
